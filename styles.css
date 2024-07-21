@@ -1,0 +1,27 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+.top-bar,.hero,footer{
+    background-color: #1F2937;
+}
+.hero-heading{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 1000;
+}
+.hero-subheading{
+    font-size: 18px;
+    color:#E5E7EB
+}
+button{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+#normal{
+    font-weight: bold;
+}
+#inverted{
+    font-weight: lighter;
+}
