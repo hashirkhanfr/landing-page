@@ -33,14 +33,19 @@ header,.hero,footer{
 button{
     background-color: #3882F6;
     color:#F9FAF8;
-    padding: 5px 15px 5px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
+    font-size: 0.9rem;
 }
 #normal{
     font-weight: bold;
+    border: none;
+    
 }
+
 #inverted{
-    font-weight: lighter;
+    font-weight: bold;
+    border-color: white;
 }
 .temp-image{
     width: 500px;
@@ -116,4 +121,19 @@ section > div{
     display: flex;
     flex-direction: row-reverse;
     font-style:normal;
+}
+.cta-container{
+    margin: 30px auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color:#F9FAF8;
+    padding: 20px;
+}
+.cta-text-container{
+    font-size: 1.2rem;
+
 }
