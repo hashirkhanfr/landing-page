@@ -69,9 +69,6 @@ button{
 .logo-div{
     
 }
-.services-container *{
-    border: 0.1px solid red;
-}
 .hero{
     padding: 20px 0 100px 0px;
 }
@@ -93,7 +90,6 @@ button{
     justify-content: space-around;
 }
 .services-container{
-    border: 3px solid green;
     text-align: center;
     width: 210px;
     margin: 20px 0;
@@ -145,5 +141,8 @@ footer{
 }
 a{
     text-decoration: none;
-    color:#3882F6;
+    color:#F9FAF8;
+}
+footer a{
+    color: #3882F6
 }
