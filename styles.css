@@ -4,7 +4,7 @@ html{
 }
 body{
     font-family: Roboto,sans-serif;
-    margin: auto auto;
+    margin: 0 0;
 }
 .bold{
     font-weight: bold;
@@ -25,6 +25,7 @@ header,.hero,footer{
     background-color: #E5E7EB;
     color: #1F2937;
     font-style: italic;
+    padding: 10px;
 }
 
 .hero-subheading{
@@ -99,14 +100,13 @@ button{
 }
 .services-container{
     text-align: center;
-    border: 1px solid red;
     width: 210px;
     margin: 20px 0;
     font-size: 1.5em;
 }
 .services-box{
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: 180px;
     border: 5px solid #3882F6;
     border-radius: 20px;
     margin: 0 auto;
@@ -162,5 +162,5 @@ footer a{
     html{
         font-size: 8px;
     }
-    
+
 }
