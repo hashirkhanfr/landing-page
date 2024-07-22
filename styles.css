@@ -130,11 +130,11 @@ section > div{
     flex-wrap: wrap;
 }
 .cta-container{
-    margin: 30px auto;
+    margin: 3% auto;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    width: 1000px;
+    width: 80%;
     background-color: #3882F6;
     border-radius: 5px;
     color:#F9FAF8;
@@ -157,4 +157,10 @@ a{
 }
 footer a{
     color: #3882F6
+}
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 8px;
+    }
+    
 }
