@@ -94,6 +94,7 @@ button{
     border: 3px solid green;
     text-align: center;
     width: 210px;
+    margin: 20px 0;
 }
 .services-box{
     width: 200px;
@@ -104,4 +105,9 @@ button{
 }
 article > p{
     margin: 5px 0;
+}
+/* Max-width for all child divs inside section */
+section > div{
+    max-width: 1080px;
+    margin: 0 auto;
 }
