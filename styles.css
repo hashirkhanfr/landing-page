@@ -61,14 +61,22 @@ button{
 .logo-div{
     
 }
-.hero *{
-    border: 1px solid red;
+.services *{
+    border: 0.1px solid red;
 }
 .hero{
-    padding: 20px 0 100px 150px;
+    padding: 20px 0 100px 0px;
 }
 .hero-container{
     display:flex;
     justify-content: space-around;
-   
+}
+.hero-text-container{
+    width: 500px;
+}
+.hero-text-container *{
+    margin: 10px auto;
+}
+.hero-image-container{
+    margin-right: 150px;
 }
