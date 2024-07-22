@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    font-size: 10px;
 }
 body{
     font-family: Roboto,sans-serif;
@@ -8,33 +9,33 @@ body{
     font-weight: bold;
 }
 header,.hero,footer{
+    font-size: 1.5em;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
 .hero-heading{
-    font-size: 48px;
+    font-size: 4.8em;
     color:#F9FAF8;
     font-weight: 1000;
 }
 .quote{
-    font-size: 36px;
+    font-size: 3.6em;
     background-color: #E5E7EB;
     color: #1F2937;
     font-style: italic;
 }
 
 .hero-subheading{
-    font-size: 18px;
+    font-size: 1.8em;
     color:#E5E7EB
-
 }
 button{
     background-color: #3882F6;
     color:#F9FAF8;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 0.9rem;
+    font-size: 1.5em;
 }
 #normal{
     font-weight: bold;
@@ -82,6 +83,7 @@ button{
     margin: 10px auto;
 }
 .services h2{
+    font-size: 3.6em;
     text-align: center;
 }
 .services-flexbox{
@@ -92,6 +94,7 @@ button{
     text-align: center;
     width: 210px;
     margin: 20px 0;
+    font-size: 1.5em;
 }
 .services-box{
     width: 200px;
@@ -129,14 +132,14 @@ section > div{
     padding: 20px;
 }
 .cta-text-container{
-    font-size: 1.2rem;
+    font-size: 1.8em;
 
 }
 footer{
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    font-size: 1.2rem;
+    font-size: 1.5em;
 }
 a{
     text-decoration: none;
