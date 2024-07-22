@@ -2,6 +2,9 @@ body{
     font-family: Roboto,sans-serif;
     margin: 0 0;
 }
+.bold{
+    font-weight: bold;
+}
 .top-bar,.hero,footer{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -16,10 +19,8 @@ body{
     background-color: #E5E7EB;
     color: #1F2937;
     font-style: italic;
-     font-weight: 2;         /* This font weight isn't being applied for some reason */
-
-
 }
+
 .hero-subheading{
     font-size: 18px;
     color:#E5E7EB
@@ -36,4 +37,9 @@ button{
 }
 #inverted{
     font-weight: lighter;
+}
+.temp-image{
+    width: 500px;
+    height: 200px;
+    background-color: #04da28;
 }
