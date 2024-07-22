@@ -5,10 +5,11 @@ body{
 .bold{
     font-weight: bold;
 }
-.top-bar,.hero,footer{
+header,.hero,footer{
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
 .hero-heading{
     font-size: 48px;
     color:#F9FAF8;
@@ -42,4 +43,32 @@ button{
     width: 500px;
     height: 200px;
     background-color: #04da28;
+}
+
+/* FLEXBOX time   */
+.top-bar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.nav-bar{
+    margin-right: 300px;
+}
+.logo-div,.nav-bar *{
+    margin-left: 100px;
+}
+.logo-div{
+    
+}
+.hero *{
+    border: 1px solid red;
+}
+.hero{
+    padding: 20px 0 100px 150px;
+}
+.hero-container{
+    display:flex;
+    justify-content: space-around;
+   
 }
