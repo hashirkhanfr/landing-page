@@ -48,9 +48,12 @@ button{
     font-weight: bold;
     border-color: white;
 }
+.hero-image-container{
+    width: 480px;
+}
 .temp-image{
-    width: 500px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     background-color: #04da28;
 }
 
