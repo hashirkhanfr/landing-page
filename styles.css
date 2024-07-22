@@ -80,9 +80,6 @@ button{
 .hero-text-container *{
     margin: 10px auto;
 }
-.hero-image-container{
-    margin-right: 150px;
-}
 .services h2{
     text-align: center;
 }
@@ -110,4 +107,13 @@ article > p{
 section > div{
     max-width: 1080px;
     margin: 0 auto;
+}
+.quote-container{
+    height: 40vh;
+    place-content: center;
+}
+#author{
+    display: flex;
+    flex-direction: row-reverse;
+    font-style:normal;
 }
